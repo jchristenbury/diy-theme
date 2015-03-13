@@ -4,6 +4,8 @@ To Do:
 * Typography:
 I want to add better typography right out of the box. Right now it’s simple but I want to spice it up a bit. 
 
+Test. 
+
 * Add  Theme Customizer.
 
 * ???
