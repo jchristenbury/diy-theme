@@ -1,0 +1,9 @@
+/*
+        CSS for Rich Text Editor
+        WP Codex: add_editor_style() @ http://bit.ly/1lmdmEY
+ */
+ 
+ /* Add your own editor styles to this file */
+ 
+body#tinymce.wp-editor {}
+body#tinymce.wp-editor a {}

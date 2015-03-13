@@ -1,0 +1,82 @@
+/*
+	Theme Name:   DIY Theme
+	Theme URI:    https://github.com/jchristenbury/diy-theme
+	Description:  A basic starter theme. Bare bones.
+	Author:       John Christenbury
+	Author URI:   http://johnchristenbury.com/
+	Version:      1.0
+	Tags:         two-columns, fluid-layout, editor-style, custom-menu, featured-images, threaded-comments
+	License:      GNU General Public License v2 or later
+	License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	color: #2C2C2C;
+	font: normal 100% sans-serif;
+	
+}
+
+.container { 
+	max-width: 960px; 
+	margin: 0 auto; 
+	}
+.box {}
+
+
+.header {}
+.content { 
+	float: left; 
+	width: 65%; 
+	background-color: #efefef; 
+	}
+	
+.content p {
+	line-height: 1.5em;
+}
+	
+.sidebar { 
+	float: right; 
+	width: 33%; 
+	background-color: #efefef; 
+	}
+.footer { 
+	clear: both; 
+	padding: 1.75% 0 0 0; 
+	}
+
+
+h1 {}
+h2 {}
+h3 {}
+
+a {}
+img { max-width: 100%; height: auto; }
+
+blockquote {
+}
+
+
+
+/* defualt wp classes */
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+
+
+
+/* @media */
+
+@media (max-width: 800px) {
+	.content, .sidebar { 
+		float: none; 
+		width: 100%; 
+	}
+}
+
+
